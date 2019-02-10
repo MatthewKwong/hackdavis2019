@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-gap: 1em;
+  height:100vh;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  grid-template-areas: "a b c"
+}
+
+#matches{
+  /* width:33%; */
+  height:100vh;
+  border: 2px solid black;
+  grid-area: a;
+  background-color: #FE6D64;
+}
+
+.tutees{
+  text-align: left;
+  height:100vh;
+  border: 2px solid black;
+  grid-area: b;
+  background-color: #C3FF7F;
+}
+
+#classes{
+  /* width:33%; */
+  height:100vh;
+  border: 2px solid black;
+  grid-area: c;
+  background-color: #9988FF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 1em;
+}
+
+img{
+  border-radius: 50%;
+  height: 100px;
+  margin-right: 20px;
+}
+
+
+.profile{
+  width:70%;
+  height:80%;
+  border:black solid 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+}
