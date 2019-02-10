@@ -17,4 +17,5 @@ function newTutee() {
   var person = new tuteeProfile(tuteeName, tuteeEmail, tuteeCourses, tuteeCourses, tuteeMatch);
 
   allProfiles.splice(allProfiles.length, 0, person);
+
 }
