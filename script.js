@@ -7,6 +7,4 @@ function getTutorInfo() {
   var tutorPassword = document.getElementById('tutorPassword').value;
   var tutorCourses = document.getElementById('tutorCourses').value;
   tutorCourses = tutorCourses.split(",");
-
-  console.log(tutorCourses);
 }
