@@ -4,48 +4,57 @@ body {
 
 .container {
   display: grid;
-  grid-gap: 1em;
+  /* grid-gap: 1em; */
   height:100vh;
   grid-template-columns: .5fr 1.4fr .75fr;
   grid-template-areas: "a b c"
 }
+/* ----------FIRST BOX----------- */
 
 #matches{
-  /* width:33%; */
+  font-size:10px;
   height:100vh;
-  border: 2px solid black;
   grid-area: a;
-  background-color: #FE6D64;
+  background-color: #F8F8F8;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+#match-images{
+  text-align: center;
+}
+
+#matches img {
+  border: #C0C0C0 4px solid;
+  border-radius: 50%;
+  margin-left: 20px;
+  float:left;
+  height: 110px;
+}
+
+/* ----------SECOND BOX----------- */
+
 
 .tutees{
   text-align: left;
   height:100vh;
-  border: 2px solid black;
   grid-area: b;
-  background-color: #C3FF7F;
 }
 
-#classes{
-  /* width:33%; */
-  height:100vh;
-  border: 2px solid black;
-  grid-area: c;
-  background-color: #9988FF;
+
+#left-arrow{
+  height: 50px;
+  float:left;
+  margin-left: 50px;
 }
 
-* {
-  box-sizing: border-box;
+#right-arrow{
+  height: 50px;
+  float:right;
+  margin-right: 50px;
 }
 
-.box {
-  padding: 1em;
-}
-
-#matches img {
-  border-radius: 50%;
-  height: 100px;
-  margin-right: 20px;
+.arrows:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -53,10 +62,11 @@ body {
   background-color: #F8F8F8	;
   width:50%;
   height:80%;
-  border:black solid 2px;
+  /* border: grey solid 2px; */
   margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .profile-box img {
@@ -65,4 +75,40 @@ body {
 
 .profile{
   margin-left: 20px;
+  margin-right: 20px;
+}
+
+#profile-button{
+  font-size: 25px;
+  width:100%;
+  margin-bottom:20px;
+}
+
+#profile-button:hover{
+  transition: 1s;
+  background-color:red;
+}
+
+/* ----------THIRD BOX----------- */
+#info{
+  /* width:33%; */
+  height:100vh;
+  grid-area: c;
+  background-color: #F8F8F8;
+  box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#info-text{
+  margin-left: 20px;
+
+}
+
+/* ----------OTHER----------- */
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 1em;
 }
