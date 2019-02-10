@@ -17,3 +17,11 @@ h1 {
   color: black;
   font-size: 30pt;
 }
+
+#banner{
+display: block;
+ margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height:100px;
+}
