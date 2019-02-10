@@ -6,7 +6,7 @@ body {
   display: grid;
   grid-gap: 1em;
   height:100vh;
-  grid-template-columns: 1fr 1fr 1.5fr;
+  grid-template-columns: .5fr 1.4fr .75fr;
   grid-template-areas: "a b c"
 }
 
@@ -42,18 +42,27 @@ body {
   padding: 1em;
 }
 
-img{
+#matches img {
   border-radius: 50%;
   height: 100px;
   margin-right: 20px;
 }
 
 
-.profile{
-  width:70%;
+.profile-box{
+  background-color: #F8F8F8	;
+  width:50%;
   height:80%;
   border:black solid 2px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15%;
+  margin-top: 10%;
+}
+
+.profile-box img {
+    width:100%;
+}
+
+.profile{
+  margin-left: 20px;
 }
