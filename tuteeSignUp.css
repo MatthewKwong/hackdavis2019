@@ -13,7 +13,23 @@ form input {
   font-size: 15px;
 }
 
-button {
+
+.button {
+  border: 3px solid black;
+  text-align: center;
   width: 15%;
-  font-size: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 1px 1px 1px black;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+  font-size: 20pt;
+}
+
+.button:hover{
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }

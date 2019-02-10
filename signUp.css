@@ -1,10 +1,19 @@
+
+
+#container{
+  margin-top: 10%;
+}
+
 #tuteeSide {
+  margin-right: 20%;
   float: right;
 }
 
 #tutorSide {
+  margin-left: 20%;
   float: left;
 }
+
 
 .signUpLink {
   border: 3px solid black;
@@ -18,5 +27,9 @@
 .signUpLink a {
   text-decoration: none;
   color: black;
-  font-size: 30pt;
+  font-size: 100pt;
+}
+
+.signUpLink:hover{
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
