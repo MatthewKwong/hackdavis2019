@@ -6,30 +6,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="style.css" rel="stylesheet">
 <link href="tuteeSignUp.css" rel="stylesheet">
-<script src="script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
   <h1>***Insert Title here***</h1>
 
-<form action="tuteeMessage.html">
+<!-- <form action="tuteeMessage.html"> -->
+<form>
   Name:<br>
-  <input type="text" name="name" value="Enter Name">
-  <br>
-  Phone Number:<br>
-  <input type="text" name="number" value="Enter Phone Number">
+  <input type="text" id="tuteeName" name="name" value="Enter Name">
   <br>
   Email:<br>
-  <input type="text" name="email" value="Enter Email">
+  <input type="text" id="tuteeEmail" name="email" value="Enter Email">
   <br>
   Courses:<br>
-  <input type="text" name="courses" value="Enter Courses">
+  <input type="text" id="tuteeCourses" name="courses" value="Enter Courses">
   <br>
   Topics:<br>
-  <input type="text" name="topics" value="Enter Topics">
+  <input type="text" id="tuteeTopics" name="topics" value="Enter Topics">
   <br> <br>
-  <input type="submit" value="Submit">
 </form>
 
+<!--<a href="tuteeMessage.html">--> <button onclick="newTutee()">Submit</button><!-- </a>-->
+
+
+<script src="script.js"></script>
+<script src="tuteeSignUp.js"></script>
 </body>
 </html>
