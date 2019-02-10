@@ -11,6 +11,15 @@ body {
 }
 /* ----------FIRST BOX----------- */
 
+#profile-button{
+  background-color: #95C8D8;
+  font-size: 25px;
+  font-weight: bold;
+  width:100%;
+  margin-bottom:20px;
+}
+
+
 #matches{
   font-size:10px;
   height:100vh;
@@ -24,11 +33,16 @@ body {
 }
 
 #matches img {
-  border: #C0C0C0 4px solid;
   border-radius: 50%;
   margin-left: 20px;
   float:left;
   height: 110px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#matches img:hover{
+  transition: .5s;
+  box-shadow: 0 9px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* ----------SECOND BOX----------- */
@@ -78,16 +92,6 @@ body {
   margin-right: 20px;
 }
 
-#profile-button{
-  font-size: 25px;
-  width:100%;
-  margin-bottom:20px;
-}
-
-#profile-button:hover{
-  transition: 1s;
-  background-color:red;
-}
 
 /* ----------THIRD BOX----------- */
 #info{
@@ -98,8 +102,17 @@ body {
   box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+#info-image{
+  width: 100%;
+}
+
 #info-text{
   margin-left: 20px;
+}
+
+#info-text p{
+  font-size: 20px;
 
 }
 
