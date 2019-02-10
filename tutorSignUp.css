@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  font-size: 36pt;
+}
+
+form {
+  text-align: center;
+  font-size: 25pt;
+}
+
+form input {
+  width: 15%;
+  font-size: 15pt;
+}
