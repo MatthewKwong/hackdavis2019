@@ -1,0 +1,22 @@
+#tuteeSide {
+  float: right;
+}
+
+#tutorSide {
+  float: left;
+}
+
+.signUpLink {
+  border: 3px solid black;
+  text-align: center;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 1px 1px 1px black;
+}
+
+.signUpLink a {
+  text-decoration: none;
+  color: black;
+  font-size: 30pt;
+}
