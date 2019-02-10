@@ -6,25 +6,25 @@ body {
   display: grid;
   /* grid-gap: 1em; */
   height:100vh;
-  grid-template-columns: .5fr 1.4fr .75fr;
+  grid-template-columns: .5fr 1.4fr .5fr;
   grid-template-areas: "a b c"
 }
 /* ----------FIRST BOX----------- */
 
-#profile-button{
+/* #profile-button{
   background-color: #49B1E0;
   font-size: 25px;
   font-weight: bold;
   width:100%;
   margin-bottom:20px;
-}
+} */
 
 
 #matches{
   font-size:10px;
   height:100vh;
   grid-area: a;
-  background-color: #F8F8F8;
+  background-color: #F5F5F5;
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -32,10 +32,13 @@ body {
   text-align: center;
 }
 
+
+
 #matches img {
+  margin: 10px;
+  margin-right: none;
   border-radius: 50%;
-  margin-left: 20px;
-  float:left;
+  /* margin-left: 20px; */
   height: 110px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -54,6 +57,9 @@ body {
   grid-area: b;
 }
 
+.tutees h1{
+    font-size: 20px;
+}
 
 #left-arrow{
   height: 50px;
@@ -95,13 +101,15 @@ body {
 
 /* ----------THIRD BOX----------- */
 #info{
-  /* width:33%; */
   height:100vh;
   grid-area: c;
-  background-color: #F8F8F8;
+  background-color: #F5F5F5;
   box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#info h1{
+  font-size: 20px;
+}
 
 #info-image{
   width: 100%;
@@ -109,6 +117,8 @@ body {
 
 #info-text{
   margin-left: 20px;
+  margin-right: 20px;
+
 }
 
 #info-text p{
